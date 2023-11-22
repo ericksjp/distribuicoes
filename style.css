@@ -1,0 +1,61 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+.wrapper {
+  width: 80vw;
+  max-width: 720px;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+form {
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#pmfPlot,
+#cdfPlot {
+  margin-top: 20px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.graficos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
